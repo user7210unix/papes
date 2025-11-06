@@ -1,2 +1,0 @@
-# papes
-Wallpaper Collection
