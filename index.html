@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wallpaper archive from user7210unix/papes">
+  <title>Papes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Papes</h1>
+      <p class="site-meta" id="image-count">—</p>
+    </div>
+  </header>
+
+  <main class="gallery-wrap">
+    <div class="status" id="status" aria-live="polite">Loading archive…</div>
+    <div class="gallery" id="gallery" role="list"></div>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Next">›</button>
+    <div class="lightbox-stage">
+      <div class="lightbox-spinner" id="lightbox-spinner"></div>
+      <img class="lightbox-image" id="lightbox-image" alt="">
+    </div>
+    <div class="lightbox-bar">
+      <span class="lightbox-name" id="lightbox-name"></span>
+      <span class="lightbox-counter" id="lightbox-counter"></span>
+      <a class="lightbox-download" id="lightbox-download" href="#" download>Download</a>
+    </div>
+  </div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
